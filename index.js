@@ -1,8 +1,7 @@
 // =================================================================
-// KPSS TARİH - BÜYÜK VERİ TABANI (MASTER DOSYA - %100 EKSİKSİZ)
+// KPSS TARİH - BÜYÜK VERİ TABANI
 // =================================================================
 const database = {
-    // --- 1. İSLAMİYET ÖNCESİ ---
     "islamiyet_oncesi": [
         { word: "İslamiyet öncesi Türklerde 'Devlet'e ne ad verilir?", meaning: "İl (El)" },
         { word: "Gök Tanrı tarafından hükümdara verildiğine inanılan yönetme yetkisi?", meaning: "Kut" },
@@ -28,8 +27,8 @@ const database = {
         { word: "Orhun Yazıtları'nı yazıya geçiren bilgin kimdir?", meaning: "Yollug Tigin" },
         { word: "Türk adının anlamı Çin kaynaklarında nasıl geçer?", meaning: "Miğfer" },
         { word: "Türk adının anlamı Ziya Gökalp'e göre nedir?", meaning: "Töreli (Kanun / nizam sahibi)" },
-        { word: "Türk adını devlet adı olarak ilk kullanan Türk devleti?", meaning: "Göktürkler (Köktürkler)" },
-        { word: "Türklerde parayı değişim aracı olarak kullanan ilk Türk devleti?", meaning: "Göktürkler (Köktürk Kağanlığı)" },
+        { word: "Türk adını devlet adı olarak ilk kullanan Türk devleti?", meaning: "Göktürkler" },
+        { word: "Türklerde parayı değişim aracı olarak kullanan ilk Türk devleti?", meaning: "Göktürkler" },
         { word: "Kendi adına para bastıran ilk Türk hükümdarı?", meaning: "Baga Tarkan (Türgişler)" },
         { word: "İlk Türk alfabesi hangisidir?", meaning: "Göktürk (Orhun) Alfabesi" },
         { word: "Türklerin kullandığı ikinci alfabe hangisidir?", meaning: "Uygur Alfabesi" },
@@ -39,8 +38,6 @@ const database = {
         { word: "Yerleşik hayata geçen ilk Türk devleti?", meaning: "Uygurlar" },
         { word: "Türk tarihinde din değiştiren (Maniheizm ve Budizm gibi) ilk Türk devleti?", meaning: "Uygurlar" }
     ],
-
-    // --- 2. TÜRK-İSLAM TARİHİ ---
     "turk_islam": [
         { word: "Orta Asya'da kurulan ilk Müslüman Türk devleti?", meaning: "Karahanlılar" },
         { word: "İslamiyet'i kabul eden ilk Türk boyu?", meaning: "Karluklar" },
@@ -78,8 +75,6 @@ const database = {
         { word: "“Medinetü’l Fazıla” (Erdemliler Şehri) adlı eserin yazarı?", meaning: "Farabi" },
         { word: "Optik biliminin öncüsü, 'Kitab-ül Menazır'ı yazan bilgin?", meaning: "İbn-i Heysem" }
     ],
-
-    // --- 3. OSMANLI KÜLTÜR & MEDENİYET ---
     "osmanli_kultur": [
         { word: "Osmanlı'da devlet işlerinin görüşüldüğü en yüksek kurul?", meaning: "Divan-ı Hümayun" },
         { word: "Divan-ı Hümayun'un doğal başkanı kimdir?", meaning: "Padişah" },
@@ -124,8 +119,6 @@ const database = {
         { word: "Minyatür sanatçısına Osmanlı'da ne denir?", meaning: "Nakkaş" },
         { word: "Osmanlı’da tarih yazıcılarına ne denir?", meaning: "Vakanüvis" }
     ],
-
-    // --- 4. OSMANLI SİYASİ TARİHİ ---
     "osmanli_siyasi": [
         { word: "Osmanlı ile Bizans arasında yapılan ilk savaş (Osman Bey)?", meaning: "Koyunhisar (Bafeus) Savaşı" },
         { word: "Bursa'nın fethedilip başkent yapıldığı dönem?", meaning: "Orhan Bey" },
@@ -142,8 +135,8 @@ const database = {
         { word: "Kırım'ın fethiyle (Fatih Dönemi) ne gerçekleşmiştir?", meaning: "Karadeniz Türk gölü haline geldi." },
         { word: "Anadolu Türk siyasi birliğinin kesin olarak sağlandığı savaş?", meaning: "Turnadağ Savaşı (1515)" },
         { word: "Yavuz Sultan Selim'in Safevileri (Şah İsmail) yendiği savaş?", meaning: "Çaldıran Savaşı" },
-        { word: "Memlüklerin yıkıldığı, Halifeliğin Osmanlı'ya geçtiği ve Baharat Yolu'nun denetim altına alındığı savaşlar?", meaning: "Mercidabık ve Ridaniye" },
-        { word: "Dünya tarihinin en kısa süren (yaklaşık 2 saat) meydan muharebesi?", meaning: "Mohaç Meydan Muharebesi (Kanuni)" },
+        { word: "Memlüklerin yıkıldığı ve Halifeliğin Osmanlı'ya geçtiği savaşlar?", meaning: "Mercidabık ve Ridaniye" },
+        { word: "Dünya tarihinin en kısa süren (2 saat) meydan muharebesi?", meaning: "Mohaç Meydan Muharebesi (Kanuni)" },
         { word: "Akdeniz'in Türk gölü haline gelmesini sağlayan zafer?", meaning: "Preveze Deniz Zaferi" },
         { word: "İlk Osmanlı-İran resmi antlaşması?", meaning: "Amasya Antlaşması (Kanuni)" },
         { word: "Haçlıların Osmanlı donanmasını ilk kez yaktığı olay (Kıbrıs'ın fethinden sonra)?", meaning: "İnebahtı Deniz Bozgunu" },
@@ -180,14 +173,8 @@ const database = {
         { word: "Osmanlı'nın I. Dünya Savaşı'ndan çekildiği ateşkes?", meaning: "Mondros Ateşkes Antlaşması" },
         { word: "Osmanlı Devleti'nin hukuken sona ermesine yol açan gelişme?", meaning: "Saltanatın kaldırılması (1 Kasım 1922)" }
     ],
-
-    // =============================================
-    // YENİ BÖLÜNMÜŞ ISLAHAT VERİTABANI
-    // =============================================
-
-    // --- 17. YÜZYIL (DURAKLAMA) ---
     "islahat_17": [
-        { word: "Saray dışından evlenerek saray kadınlarının (Harem) yönetimdeki etkinliğini kıran ilk padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
+        { word: "Saray dışından evlenerek saray kadınlarının yönetimdeki etkinliğini kıran ilk padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
         { word: "Şeyhülislamın yetkilerini kısıtlayan ilk padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
         { word: "Başkenti İstanbul'dan Anadolu'ya taşımayı düşünen padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
         { word: "Yeniçeri Ocağı'nı kaldırmayı düşünen ilk padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
@@ -196,14 +183,12 @@ const database = {
         { word: "İlk kez modern anlamda 'Denk Bütçe' çalışmasını yapan devlet adamı?", meaning: "Tarhuncu Ahmet Paşa (17. YY)" },
         { word: "Sadrazamlık teklifini 'şartlar sunarak' kabul eden ilk devlet adamı?", meaning: "Köprülü Mehmet Paşa (17. YY)" }
     ],
-
-    // --- 18. YÜZYIL (GERİLEME) ---
     "islahat_18": [
         { word: "Lale Devri'nin (1718-1730) padişahı kimdir?", meaning: "III. Ahmet (18. YY)" },
         { word: "Avrupa'dan getirilen ilk çiçek aşısı hangi padişah döneminde uygulandı?", meaning: "III. Ahmet (18. YY)" },
         { word: "İlk Türk matbaası (İbrahim Müteferrika) kimin döneminde kuruldu?", meaning: "III. Ahmet (18. YY)" },
         { word: "İtfaiye teşkilatının temeli sayılan 'Tulumbacılar Ocağı'nı kurduran padişah?", meaning: "III. Ahmet (18. YY)" },
-        { word: "Yalova'da ilk kağıt imalathanesinin (Kağıthane-i Yalakabad) açıldığı padişah dönemi?", meaning: "I. Mahmut (18. YY)" },
+        { word: "Yalova'da ilk kağıt imalathanesinin açıldığı padişah dönemi?", meaning: "I. Mahmut (18. YY)" },
         { word: "Avrupa'yı örnek alarak askeri ıslahat yapan ilk padişah?", meaning: "I. Mahmut (18. YY)" },
         { word: "Batı tarzında açılan ilk teknik okul 'Hendesehane' kimin döneminde açıldı?", meaning: "I. Mahmut (18. YY)" },
         { word: "Humbaracı Ocağı'nı ıslah eden ve Comte de Bonneval'i getiren padişah?", meaning: "I. Mahmut (18. YY)" },
@@ -220,10 +205,7 @@ const database = {
         { word: "Avrupa başkentlerinde (Londra, Paris vb.) ilk 'Daimi Elçilikler' kimin döneminde açıldı?", meaning: "III. Selim (18. YY)" },
         { word: "Fransızcanın ilk resmi yabancı dil (askeri okullarda) kabul edilmesi?", meaning: "III. Selim (18. YY)" }
     ],
-
-    // --- 19. YÜZYIL (DAĞILMA) ---
     "islahat_19": [
-        // II. MAHMUT
         { word: "Sened-i İttifak'ı imzalayarak padişahın yetkilerini ilk kez kısıtlayan padişah?", meaning: "II. Mahmut (19. YY)" },
         { word: "Sekban-ı Cedit ve Eşkinci Ocağı'nı kuran padişah?", meaning: "II. Mahmut (19. YY)" },
         { word: "Vaka-i Hayriye ile Yeniçeri Ocağı'nı kaldıran padişah?", meaning: "II. Mahmut (19. YY)" },
@@ -241,9 +223,7 @@ const database = {
         { word: "Tımar sistemini tamamen kaldıran padişah?", meaning: "II. Mahmut (19. YY)" },
         { word: "Osmanlı'da ilk modern posta teşkilatını (posta nezareti) kurduran padişah?", meaning: "II. Mahmut (19. YY)" },
         { word: "İlk karantina teşkilatını (Meclis-i Tahaffuz) kuran padişah?", meaning: "II. Mahmut (19. YY)" },
-
-        // ABDÜLMECİD
-        { word: "Tanzimat Fermanı'nı (Gülhane Hatt-ı Hümayunu) ilan eden padişah?", meaning: "Sultan Abdülmecid (19. YY)" },
+        { word: "Tanzimat Fermanı'nı ilan eden padişah?", meaning: "Sultan Abdülmecid (19. YY)" },
         { word: "Islahat Fermanı'nı ilan ederek gayrimüslimlere geniş haklar veren padişah?", meaning: "Sultan Abdülmecid (19. YY)" },
         { word: "İlk kağıt para (Kaime) kimin döneminde basıldı?", meaning: "Sultan Abdülmecid (19. YY)" },
         { word: "İlk dış borç (Kırım Savaşı - İngiltere) kimin döneminde alındı?", meaning: "Sultan Abdülmecid (19. YY)" },
@@ -256,8 +236,6 @@ const database = {
         { word: "Encümen-i Daniş (Bilim Kurulu) kimin döneminde kuruldu?", meaning: "Sultan Abdülmecid (19. YY)" },
         { word: "Boğaziçi vapur taşımacılığı için kurulan ilk anonim şirket 'Şirket-i Hayriye' kimin döneminde kuruldu?", meaning: "Sultan Abdülmecid (19. YY)" },
         { word: "Dolmabahçe Sarayı kimin döneminde yapıldı?", meaning: "Sultan Abdülmecid (19. YY)" },
-
-        // ABDÜLAZİZ
         { word: "Yurt dışına seyahate çıkan ilk ve tek Osmanlı padişahı?", meaning: "Sultan Abdülaziz (19. YY)" },
         { word: "Osmanlı Donanmasını dünyanın en büyük 3. filosu haline getiren padişah?", meaning: "Sultan Abdülaziz (19. YY)" },
         { word: "Mecelle (Medeni Kanun) komisyonunu kim kurdurdu?", meaning: "Sultan Abdülaziz (19. YY)" },
@@ -268,8 +246,6 @@ const database = {
         { word: "Şûrâ-yı Devlet (Danıştay) ve Dîvân-ı Ahkâm-ı Adliyye (Yargıtay'ın temeli) hangi padişah döneminde kurulmuştur?", meaning: "Sultan Abdülaziz (19. YY)" },
         { word: "Hilal-i Ahmer (Kızılay) cemiyeti kimin döneminde kuruldu?", meaning: "II. Abdülhamid (19. YY)" },
         { word: "Çırağan ve Beylerbeyi Sarayları kimin döneminde yapıldı?", meaning: "Sultan Abdülaziz (19. YY)" },
-
-        // II. ABDÜLHAMİD
         { word: "I. Meşrutiyet'i (Kanun-i Esasi) ilan eden padişah?", meaning: "II. Abdülhamid (19. YY)" },
         { word: "Duyun-u Umumiye (Genel Borçlar İdaresi) kimin döneminde kuruldu?", meaning: "II. Abdülhamid (19. YY)" },
         { word: "Ziraat Bankası (Memleket Sandıkları'nın dönüşümü) resmen kimin döneminde kuruldu?", meaning: "II. Abdülhamid (19. YY)" },
@@ -284,8 +260,6 @@ const database = {
         { word: "Yıldız Sarayı'nı yönetim merkezi olarak kullanan padişah?", meaning: "II. Abdülhamid (19. YY)" },
         { word: "Tarihimizde rejimi değiştirmeye yönelik çıkan ilk isyan?", meaning: "31 Mart Olayı (Meşrutiyet'e karşı) (20. YY)" }
     ],
-
-    // --- 6. İNKILAP TARİHİ ---
     "inkilap_tarihi": [
         { word: "Mustafa Kemal'in 'Milli Mücadele'yi fiilen başlattığı olay?", meaning: "19 Mayıs 1919 Samsun’a Çıkış" },
         { word: "Milli Mücadelenin amaç, gerekçe ve yönteminin ilk kez belirtildiği belge?", meaning: "Amasya Genelgesi" },
@@ -337,8 +311,6 @@ const database = {
         { word: "Türkiye–Yunanistan–Yugoslavya–Romanya arasında kurulan pakt?", meaning: "Balkan Antantı (1934)" },
         { word: "Atatürk'ün 'şahsi meselem' dediği ve Türkiye’ye katılan yer?", meaning: "Hatay (1939)" }
     ],
-
-    // --- 7. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ ---
     "cagdas_turk": [
         { word: "SSCB'nin Türkistan'ı işgaline karşı başlatılan direniş hareketi?", meaning: "Basmacı Hareketi" },
         { word: "Basmacı Hareketi'ne katılan ünlü Osmanlı komutanı?", meaning: "Enver Paşa" },
@@ -419,7 +391,7 @@ function showIslahatMenu() {
     // Eğer class'ta bir sıkıntı varsa diye JS ile stil garantileme
     submenu.style.flexDirection = 'column';
     submenu.style.alignItems = 'center';
-    submenu.style.justifyContent = 'center';
+    submenu.style.justifyContent = 'flex-start';
 }
 
 // 2. ANA MENÜYE DÖNÜŞ (ALT MENÜDEN)
@@ -428,7 +400,7 @@ function backToMainMenu() {
     document.getElementById('menu-screen').style.display = 'flex';
 }
 
-// 3. OYUNU BAŞLATMA (GÜNCELLENDİ)
+// 3. OYUNU BAŞLATMA
 function startGame(categoryKey) {
     
     // EĞER "TÜM ISLAHATLAR" SEÇİLDİYSE
@@ -440,7 +412,7 @@ function startGame(categoryKey) {
         ];
         document.getElementById('topic-title').innerText = "Tüm Osmanlı Islahatları";
     } 
-    // EĞER TEKİL KATEGORİ SEÇİLDİYSE (Normal Konular veya Tek Yüzyıl)
+    // EĞER TEKİL KATEGORİ SEÇİLDİYSE
     else {
         currentList = [...database[categoryKey]];
         
@@ -460,15 +432,16 @@ function startGame(categoryKey) {
     
     // EKRANLARI YÖNET
     document.getElementById('menu-screen').style.display = 'none';
-    document.getElementById('islahat-submenu').style.display = 'none'; // Alt menüyü de kapat
+    document.getElementById('islahat-submenu').style.display = 'none';
     document.getElementById('game-screen').style.display = 'flex';
     
     document.getElementById('count').innerText = currentList.length;
+    
+    // KAVANOZ MODUNDA: Result Card GİZLİ başlar
     document.getElementById('result-card').style.display = 'none';
 }
 
 function goBack() {
-    // Geri dönünce her zaman Ana Menüye gitsin (Basitlik için)
     document.getElementById('game-screen').style.display = 'none';
     document.getElementById('menu-screen').style.display = 'flex';
 }
@@ -510,11 +483,10 @@ function showMeaning() {
 // =================================================================
 
 let quizScore = 0;
-let isAnswered = false; // Kullanıcı cevap verdi mi kontrolü
+let isAnswered = false;
 
 // 1. Testi Başlatma
 function startQuizMode() {
-    // Ekranları Yönet
     document.getElementById('islahat-submenu').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'flex';
     
@@ -529,7 +501,7 @@ function backToIslahatMenu() {
     document.getElementById('islahat-submenu').style.display = 'flex';
 }
 
-// 3. Yeni Soru Hazırlama (ALGORİTMA)
+// 3. Yeni Soru Hazırlama
 function askNewQuestion() {
     isAnswered = false;
     document.getElementById('quiz-feedback').innerText = "";
@@ -541,33 +513,34 @@ function askNewQuestion() {
         ...database['islahat_19']
     ];
 
-    // Rastgele Bir Soru Seç (Doğru Cevap)
+    // Doğru Cevabı Seç
     const randomIdx = Math.floor(Math.random() * allIslahat.length);
     const targetQ = allIslahat[randomIdx];
     
-    // Ekrana Yaz
+    // Soruyu Ekrana Yaz (Container'ın görünür olduğundan eminiz)
     document.getElementById('quiz-question').innerText = targetQ.word;
 
     // Şıkları Oluştur (1 Doğru + 3 Yanlış)
     let options = [targetQ.meaning];
     
-    // 3 Tane Yanlış Cevap Bul (Duplicate olmasın)
-    while (options.length < 4) {
+    let safetyCounter = 0;
+    while (options.length < 4 && safetyCounter < 100) {
         const wrongIdx = Math.floor(Math.random() * allIslahat.length);
         const wrongAnswer = allIslahat[wrongIdx].meaning;
         
-        // Eğer yanlış cevap, doğru cevapla aynı değilse ve listeye daha önce eklenmediyse ekle
+        // Eğer yanlış cevap, doğru cevapla aynı değilse ve şıklarda yoksa ekle
         if (wrongAnswer !== targetQ.meaning && !options.includes(wrongAnswer)) {
             options.push(wrongAnswer);
         }
+        safetyCounter++;
     }
 
-    // Şıkları Karıştır (Shuffle)
+    // Şıkları Karıştır
     options.sort(() => Math.random() - 0.5);
 
     // Butonları Oluştur
     const container = document.getElementById('options-container');
-    container.innerHTML = ""; // Temizle
+    container.innerHTML = "";
 
     options.forEach(opt => {
         const btn = document.createElement('button');
@@ -580,24 +553,20 @@ function askNewQuestion() {
 
 // 4. Cevap Kontrolü
 function checkAnswer(selectedBtn, selectedText, correctText) {
-    if (isAnswered) return; // Zaten basıldıysa işlem yapma
+    if (isAnswered) return;
     isAnswered = true;
 
     const feedback = document.getElementById('quiz-feedback');
     const allBtns = document.querySelectorAll('.quiz-opt-btn');
 
     if (selectedText === correctText) {
-        // DOĞRU BİLİNDİ
         selectedBtn.classList.add('correct');
         feedback.innerText = "TEBRİKLER! ✅";
         feedback.style.color = "#2ecc71";
         quizScore++;
         updateScore();
-        
-        // 1.5 saniye sonra yeni soru
         setTimeout(askNewQuestion, 1500);
     } else {
-        // YANLIŞ BİLİNDİ
         selectedBtn.classList.add('wrong');
         feedback.innerText = "YANLIŞ! ❌";
         feedback.style.color = "#e74c3c";
@@ -608,8 +577,6 @@ function checkAnswer(selectedBtn, selectedText, correctText) {
                 btn.classList.add('correct');
             }
         });
-
-        // 2.5 saniye bekle ki kullanıcı doğrusunu görsün
         setTimeout(askNewQuestion, 2500);
     }
 }
