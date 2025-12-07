@@ -154,14 +154,49 @@ h1.main-title {
     box-shadow: 0 5px 10px rgba(0,0,0,0.4);
 }
 
+/* Kağıt Parçaları - KAVANOZ İÇİNE OTURTULDU */
 .paper-scrap {
-    width: 50px; height: 50px; 
+    width: 50px; 
+    height: 50px; 
     background-color: #f4e4d0;
     background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
-    position: absolute; opacity: 0.9; border-radius: 3px;
-    border: 1px solid #d4af37; display: flex; align-items: center; justify-content: center;
-    color: #7c0a02; font-family: 'Cinzel', serif; font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); font-size: 1.2em;
+    position: absolute; 
+    opacity: 0.9; 
+    border-radius: 3px;
+    border: 1px solid #d4af37; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: #7c0a02; 
+    font-family: 'Cinzel', serif; 
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+    font-size: 1.2em;
+    
+    /* YENİ EKLENEN KISIM: Z-INDEX AYARI */
+    z-index: 1; /* Kavanozun içinde ama yazının altında kalsın */
+}
+
+/* KAVANOZUN İÇİNDEKİ KONUMLARI DÜZELTMEK İÇİN HTML'DEKİ style="" DEĞERLERİNİ CSS İLE EZELİM */
+/* 1. Kağıt */
+.jar .paper-scrap:nth-child(1) {
+    top: 60% !important; /* Yukarıdan %60 aşağı it */
+    left: 20% !important;
+    transform: rotate(-15deg);
+}
+
+/* 2. Kağıt */
+.jar .paper-scrap:nth-child(2) {
+    top: 70% !important; /* Daha da aşağı */
+    left: 45% !important;
+    transform: rotate(20deg);
+}
+
+/* 3. Kağıt */
+.jar .paper-scrap:nth-child(3) {
+    top: 55% !important; 
+    left: 65% !important;
+    transform: rotate(45deg);
 }
 
 /* =========================================
