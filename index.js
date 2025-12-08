@@ -285,7 +285,7 @@ const database = {
         { word: "Hicaz Demiryolu'nu (Şam - Medine hattı) yaptıran padişah?", meaning: "II. Abdülhamid (19. YY)" },
         { word: "II. Meşrutiyet'i ilan ederek Meclis-i Mebusan'ı yeniden açan padişah?", meaning: "II. Abdülhamid (20. YY Başları)" },
         { word: "Yıldız Sarayı'nı yönetim merkezi olarak kullanan padişah?", meaning: "II. Abdülhamid (19. YY)" },
-        { word: "Tarihimizde rejimi değiştirmeye yönelik çıkan ilk isyan?", meaning: "31 Mart Olayı (Meşrutiyet'e karşı) (20. YY)" }
+        
     ],
     "inkilap_tarihi": [
         { word: "Mustafa Kemal'in 'Milli Mücadele'yi fiilen başlattığı olay?", meaning: "19 Mayıs 1919 Samsun’a Çıkış" },
