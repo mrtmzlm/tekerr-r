@@ -23,7 +23,8 @@
             <button class="cat-btn" onclick="startGame('osmanli_kultur')">
                 <span>📜</span> Osmanlı Kültür & Med.
             </button>
-            <button class="cat-btn" onclick="startGame('osmanli_siyasi')">
+
+            <button class="cat-btn" onclick="showSiyasiMenu()">
                 <span>⚔️</span> Osmanlı Siyasi Tarihi
             </button>
             
@@ -63,6 +64,43 @@
                 <span>📝</span> Islahat Testi (Quiz)
             </button>
         </div>
+    
+
+    <div id="siyasi-submenu" style="display: none;">
+        <h1 class="main-title">Siyasi Dönem Seç</h1>
+        <p class="subtitle">Hangi döneme çalışmak istersin?</p>
+
+        <div class="category-grid">
+            <button class="cat-btn" onclick="startGame('osmanli_kurulus')">
+                <span>I</span> Kuruluş
+            </button>
+            <button class="cat-btn" onclick="startGame('osmanli_yukselis')">
+                <span>II</span> Yükseliş
+            </button>
+            <button class="cat-btn" onclick="startGame('osmanli_duraklama')">
+                <span>III</span> Duraklama
+            </button>
+            <button class="cat-btn" onclick="startGame('osmanli_gerileme')">
+                <span>IV</span> Gerileme
+            </button>
+            <button class="cat-btn" onclick="startGame('osmanli_dagilma')">
+                <span>V</span> Dağılma
+            </button>
+            <button class="cat-btn" onclick="startGame('osmanli_20yy')">
+                <span>VI</span> XX. yy Başları
+            </button>
+            
+            <button class="cat-btn gold-btn" onclick="startGame('osmanli_all')">
+                <span>♾️</span> TÜM DÖNEMLER
+            </button>
+            
+            <button class="cat-btn quiz-mode-btn" onclick="startSiyasiQuizMode()">
+                <span>📝</span> Siyasi Tarih Testi (Quiz)
+            </button>
+        </div>
+        
+        <button class="back-btn" style="margin-top: 20px;" onclick="backToMainMenu()">← Ana Menüye Dön</button>
+    </div>
         
         <button class="back-btn" style="margin-top: 20px;" onclick="backToMainMenu()">← Ana Menüye Dön</button>
     </div>

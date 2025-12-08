@@ -171,8 +171,7 @@ const database = {
         { word: "I. Balkan Savaşı'nda en karlı çıkan devlet?", meaning: "Bulgaristan" },
         { word: "Osmanlı Devleti'nin imzaladığı en ağır barış antlaşması?", meaning: "Sevr Antlaşması (1920)" },
         { word: "Osmanlı'nın I. Dünya Savaşı'ndan çekildiği ateşkes?", meaning: "Mondros Ateşkes Antlaşması" },
-        { word: "Osmanlı Devleti'nin hukuken sona ermesine yol açan gelişme?", meaning: "Saltanatın kaldırılması (1 Kasım 1922)" },
-        { word: "Tarihimizde rejimi değiştirmeye yönelik çıkan ilk isyan?", meaning: "31 Mart Olayı (Meşrutiyet'e karşı) (20. YY)" }
+        { word: "Osmanlı Devleti'nin hukuken sona ermesine yol açan gelişme?", meaning: "Saltanatın kaldırılması (1 Kasım 1922)" }
     ],
     "islahat_17": [
         { word: "Saray dışından evlenerek saray kadınlarının yönetimdeki etkinliğini kıran ilk padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
