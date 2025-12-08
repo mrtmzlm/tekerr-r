@@ -171,7 +171,8 @@ const database = {
         { word: "I. Balkan Savaşı'nda en karlı çıkan devlet?", meaning: "Bulgaristan" },
         { word: "Osmanlı Devleti'nin imzaladığı en ağır barış antlaşması?", meaning: "Sevr Antlaşması (1920)" },
         { word: "Osmanlı'nın I. Dünya Savaşı'ndan çekildiği ateşkes?", meaning: "Mondros Ateşkes Antlaşması" },
-        { word: "Osmanlı Devleti'nin hukuken sona ermesine yol açan gelişme?", meaning: "Saltanatın kaldırılması (1 Kasım 1922)" }
+        { word: "Osmanlı Devleti'nin hukuken sona ermesine yol açan gelişme?", meaning: "Saltanatın kaldırılması (1 Kasım 1922)" },
+        { word: "Tarihimizde rejimi değiştirmeye yönelik çıkan ilk isyan?", meaning: "31 Mart Olayı (Meşrutiyet'e karşı) (20. YY)" }
     ],
     "islahat_17": [
         { word: "Saray dışından evlenerek saray kadınlarının yönetimdeki etkinliğini kıran ilk padişah?", meaning: "II. Osman (Genç Osman) (17. YY)" },
@@ -258,7 +259,7 @@ const database = {
         { word: "Hicaz Demiryolu'nu (Şam - Medine hattı) yaptıran padişah?", meaning: "II. Abdülhamid (19. YY)" },
         { word: "II. Meşrutiyet'i ilan ederek Meclis-i Mebusan'ı yeniden açan padişah?", meaning: "II. Abdülhamid (20. YY Başları)" },
         { word: "Yıldız Sarayı'nı yönetim merkezi olarak kullanan padişah?", meaning: "II. Abdülhamid (19. YY)" },
-        { word: "Tarihimizde rejimi değiştirmeye yönelik çıkan ilk isyan?", meaning: "31 Mart Olayı (Meşrutiyet'e karşı) (20. YY)" }
+        
     ],
     "inkilap_tarihi": [
         { word: "Mustafa Kemal'in 'Milli Mücadele'yi fiilen başlattığı olay?", meaning: "19 Mayıs 1919 Samsun’a Çıkış" },
